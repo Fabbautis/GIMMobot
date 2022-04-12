@@ -1,0 +1,7 @@
+{
+  "name": "GIMMobot",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
