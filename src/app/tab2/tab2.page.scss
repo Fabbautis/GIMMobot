@@ -9,7 +9,7 @@
 }
 
 
-.container h1 {
+.container h4 {
     color:red;
 }
 
@@ -63,4 +63,16 @@
     padding:10px 1.5% 10px 1.5%;
     height:25%;
     width:auto;
+}
+
+#image{
+    width:100%;
+}
+#new-photo{
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
+    height: 5%;
+    background-color: darkgray;
 }
