@@ -1,10 +1,66 @@
 .container{
+    position: relative;
     display: flex;
+    margin: auto;
     justify-content: center;
     align-items:center;
-    height: 100%;
+    max-width: 50%;
+    height: auto;
 }
+
 
 .container h1 {
     color:red;
+}
+
+#text{
+    position: absolute;
+    background-color: white;
+    color: black;
+    max-width: 50%;
+    height: auto;
+}
+
+.top-left{
+    padding:.1% 2.5% 2% .5%;
+    top: 2%;
+    left: 2%;
+    height:25%;
+    width:auto;
+}
+
+.top-right{
+    text-align: right;
+    padding:.1% .5% 2% 2.5%;
+    top: 2%;
+    right: 2%;
+    height:25%;
+    width:auto;
+}
+
+.bottom-left{
+    padding:2% 2.5% .1% .5%;
+    bottom: 2%;
+    left: 2%;
+    height:25%;
+    width:auto;
+}
+
+.bottom-right{ 
+    text-align: right;
+    bottom: 2%;
+    right: 2%;   
+    padding:2% .5% .1% 2.5%;
+    height:15%;
+    width:auto;
+}
+
+.center{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding:10px 1.5% 10px 1.5%;
+    height:25%;
+    width:auto;
 }
