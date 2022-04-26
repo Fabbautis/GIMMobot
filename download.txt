@@ -1,0 +1,7 @@
+ionic g service services/photo
+
+npm install @capacitor/camera
+npm install @capacitor/filesystem
+npm install @capacitor/storage
+
+npm install @ionic/pwa-elements
