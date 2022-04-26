@@ -55,7 +55,9 @@ export class Tab2Page {
     0,
     4,
     1,
-    0
+    0,
+    4,
+    2,
   ];
 
   constructor() {

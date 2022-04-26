@@ -9,7 +9,7 @@
 
 <ion-content [fullscreen]="true">
   <div class="container">
-    <ion-img id = 'image' src='../assets/pictures/{{pictureID}}.jpg'></ion-img>
+    <ion-img id = 'image' src='../assets/pictures/{{pictureID}}.jpg' [src]="photo.webviewPath" ></ion-img>
     <div class = 'hi' id="text">
       <h4>{{text1}}</h4>
       <h4>{{text2}}</h4>

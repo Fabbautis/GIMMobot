@@ -8,14 +8,14 @@
 
 <ion-content [fullscreen]="true">
   
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Take a photo</ion-title>
-    </ion-toolbar>
-  </ion-header>
+    <!--<ion-item [href] = "'tabs/New Meme/'" routerDirection = 'forward'>
+      <ion-button></ion-button>
+    </ion-item>-->
 
-
-    <ion-fab vertical="bottom" horizontal="center">
+    <div class = 'container'>
+      <img src = 'https://i.kym-cdn.com/photos/images/newsfeed/001/018/899/936.jpg' style = "height: 100%; width: auto;">
+    </div>
+    <ion-fab horizontal="center">
       <ion-fab-button (click)="addPhotoToGallery()">
         <ion-icon name="camera"></ion-icon>
       </ion-fab-button>
