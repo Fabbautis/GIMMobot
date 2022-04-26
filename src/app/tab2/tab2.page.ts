@@ -98,9 +98,8 @@ export class Tab2Page {
         document.getElementById('text').classList.replace(this.placement, 'top-right');
         this.placement = 'top-right';
       break;
-    }
-  }
-  
+    } 
+  }  
 }
 
 
