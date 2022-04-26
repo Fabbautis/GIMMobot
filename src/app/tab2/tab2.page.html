@@ -1,14 +1,15 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar class="background">
     <ion-title>
       GIMM-obot
     </ion-title>
   </ion-toolbar>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </ion-header>
-
-<!--[src]="photo.webviewPath"-->
+ 
+ 
 <ion-content [fullscreen]="true">
+<div class="background">
   <div class="container">
     <ion-img id = 'image' src='../assets/pictures/{{pictureID}}.jpg'></ion-img>
     <div class = 'hi' id="text">
@@ -18,4 +19,5 @@
     </div>
   </div>
   <button id = 'new-photo'>Hello</button>
+</div>
 </ion-content>
