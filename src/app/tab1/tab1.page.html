@@ -1,5 +1,5 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar class="background-header">
     <ion-title>
       Take a photo
     </ion-title>
@@ -8,10 +8,12 @@
  
 <ion-content [fullscreen]="true">
 <div class="background">
-
-  <ion-item [href] = "'tabs/New Meme/'" routerDirection = 'forward'>
-    <ion-button></ion-button>
-  </ion-item>
+  
+  <div class="center">
+    <ion-item [href]="'tabs/New Meme/'" routerDirection='forward'>
+      <ion-button center>Send photo to the GIMMobot</ion-button>
+    </ion-item>
+  </div>
  
   <ion-fab vertical="center" horizontal="center">
     <ion-fab-button (click)="addPhotoToGallery()">

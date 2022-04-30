@@ -1,4 +1,15 @@
-.background{
-    background-color: rgba(255, 68, 0, 0.452);
-    color: rgba(255, 68, 0, 0.452);
+.background-header {
+  --background: rgba(133, 133, 255);
+  color: black;
+}
+
+.background {
+  background-color: rgba(255, 68, 0, 0.452);
+  color: rgb(133, 133, 255);
+  height: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }

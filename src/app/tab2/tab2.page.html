@@ -1,5 +1,5 @@
 <ion-header [translucent]="true">
-  <ion-toolbar class="background">
+  <ion-toolbar class="background-header">
     <ion-title>
       GIMM-obot
     </ion-title>
@@ -9,16 +9,16 @@
  
  
 <ion-content [fullscreen]="true">
-<div class="background">
-  <div class="container">
-    <ion-img id = 'image' src = {{path}}{{picToShow}}></ion-img>
-    <div class = 'hi' id="text">
-      <p>{{text1}}</p>
-      <p>{{text2}}</p>
-      <p>{{text3}}</p>
-      <h4>{{quoter}}</h4>
+  <div class="background">
+    <div class="container">
+      <ion-img id='image' src={{path}}{{picToShow}}></ion-img>
+      <div class='hi' id="text">
+        <p>{{text1}}</p>
+        <p>{{text2}}</p>
+        <p>{{text3}}</p>
+        <h4>{{quoter}}</h4>
+      </div>
     </div>
+    <button id='new-photo'>Generate New</button>
   </div>
-  <button id = 'new-photo'>Hello</button>
-</div>
 </ion-content>
